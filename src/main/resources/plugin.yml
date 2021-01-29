@@ -1,0 +1,12 @@
+name: HeroesVerificacao
+version: @version@
+main: net.dinastiafoca.heroesverificacao.HeroesVerificacao
+load: STARTUP
+authors: [ DinastiaFocaTeam ]
+description: Vincular o jogador com seu membro do Discord
+website: https://github.com/foca-enterprises
+commands:
+  verificar:
+    description: Verificar o Discord
+    aliases:
+      - verify

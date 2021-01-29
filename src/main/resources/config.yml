@@ -1,0 +1,16 @@
+MySQL:
+  Host: localhost
+  Port: 3306
+  Database: discord
+  Username: root
+  Password: toor
+Schema:
+    PendingTableName: pendentes
+    VerifiedTableName: verificados
+    ColumnNick: nickname
+    ColumnID: id_discord
+    ColumnVerified: verificado
+    ColumnCode: code
+OnVerifyCommands:
+  - 'pex user $nick group set Verificados'
+  - 'give $nick diamond 1'
